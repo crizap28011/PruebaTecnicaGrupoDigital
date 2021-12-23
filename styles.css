@@ -1,0 +1,52 @@
+img{
+    width: 30%;
+}
+
+.gato-item img{
+    width: 100%;
+}
+
+.gato-item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#listaGatos{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.imagen-muestra{
+    display: flex;
+    flex-direction: column
+}
+
+.buttons{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid: 10px;
+}
+
+.buttons button{
+    width: 100%;
+    margin: 0 10px;
+}
+
+button{
+    padding: 10px;
+    background-color: #08F;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 500;
+}
+
+.gato-item button{
+    border-radius: 0 0 10px 10px;
+}
