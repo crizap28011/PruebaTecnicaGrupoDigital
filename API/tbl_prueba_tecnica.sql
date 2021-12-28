@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `tbl_prueba_tecnica`
 --
+CREATE DATABASE IF NOT EXISTS `tbl_prueba_tecnica` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `tbl_prueba_tecnica`;
 
 -- --------------------------------------------------------
 
